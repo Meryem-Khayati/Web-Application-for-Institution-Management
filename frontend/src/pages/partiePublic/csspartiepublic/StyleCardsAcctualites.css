@@ -1,0 +1,148 @@
+.card {
+  width: 90%;
+  height: 60vh;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 10PX auto;
+  margin-bottom: 50PX;
+  border-radius: 20px;
+  box-shadow: 0 3px 9px #505050;
+  background-size: cover;
+  margin-top: 30px;
+ 
+}
+.listCards{
+position: relative;
+top: 600PX;
+}
+.titre-annonce{
+  /* width: 100%;
+  height: 30PX;
+  background-color: RED; */
+}
+.image-annonce{
+  width: 100%;
+  height: 100%;
+  
+}
+.card {
+  position: relative;
+  width: 350px; 
+  text-align: center;
+}
+
+.image-annonce img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titre-annonce {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour le titre */
+  padding: 10px;
+  box-sizing: border-box; 
+}
+/* .titre-annonce h3{
+color: RED;
+} */
+
+.date-annonce {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  box-sizing: border-box; 
+}
+.btn-annonces {
+  padding: 7px 17px;
+  border: solid 2px rgba(51, 2, 64, 0.554) ;
+  background-color: transparent; 
+  color: rgb(51, 2, 64); 
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+
+  border-radius: 5px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.btn-annonces:hover {
+}
+
+
+/* """""""""""""""""" style affichage files  des annonces"""" */
+.annonce-data{
+ position: relative;
+ top: 60px;
+}
+.date-annonce{
+  font-weight: 600;
+  color: rgb(51, 2, 64);
+  font-size: 18px;
+}
+.annonce-header-data{
+  width: 100vw;
+  padding-left: 10px;
+}
+.annonce-header-data .des-annonce-data{
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.annonce-header-data .date-annonce-data{
+  text-align: center;
+  font-size: 29px;
+  font-weight: 600;
+  color: rgb(51, 2, 64);
+  
+
+}
+.annonce-header-data .date-annonce-data .date-econ{
+  margin-right: 10px;
+  
+
+}
+
+.file-annonces-container{
+  width: 900px;
+  height: 550px;
+ margin: 10px auto;
+ box-sizing: border-box;
+ position: relative;
+ top: 15px;
+}
+.file-annonces-container .image-annonce,.vido-annonce{
+ width: 100%;
+ height: 100%;
+ border-radius: 10px;
+  
+}
+/* """""""""""""""""" style affichage files  des annonces"""" */
+.acct{
+  margin: 30px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Noto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.acct::after {
+  background-color: rgb(51, 2, 64);
+  content: "";
+  display: block;
+  height: 7px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
+  width: 60px;
+}

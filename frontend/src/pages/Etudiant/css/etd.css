@@ -1,0 +1,143 @@
+.image-background-etudiant {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.etdimg {
+    width: 100vw;
+    height: 100vh; 
+    background-image: url('../../images/image.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.section-etudiant {
+    background-color: black;
+    color: #FFF;
+    position: relative;
+    top: -299px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+    box-sizing: border-box;
+    padding: 20px;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.section-etudiant p {
+    padding: 10px;
+}
+
+.section-etudiant h1 {
+    padding: 5px;
+    color: rgb(174, 121, 223);
+}
+
+.section-etudiant button {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: rgb(174, 120, 224);
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .section-etudiant {
+        width: 90%;
+    }
+
+    .section-etudiant button {
+        padding: 10px; 
+        font-size: 18px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .section-etudiant {
+        width: 95%; 
+         
+    }
+
+    .section-etudiant button {
+        padding: 8px; 
+        font-size: 16px; 
+    }
+}
+
+/* ------------- acceuil etd ou bien dahboard etd ----------------- */
+.back-acceuil-etd{
+    width: 80vw;
+    height: 100vh;
+}
+/* .acceuil-etd-header{
+    background-color: transparent;
+    color: #FFF;
+    margin: 0%;
+    text-align: center;
+    width: 800px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 20PX;
+    opacity: 0.7;
+    border-radius: 5px;
+    position: relative;
+    top: 360px;
+} */
+
+/* """""""""""""""""""""""  sidMenu etudiant """""""""""""""""""" */
+.etd-sid-menu-global{
+     /* width: 100vw; */
+    /* height: 100vh;  */
+    margin: 0;
+    padding: 0;
+  
+}
+.etd-sidemenu-container{
+    width: 21%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    border: solid 4px rgba(95, 7, 110, 0.886);
+
+
+}
+.etd-sidemenu-header{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+.etd-title-dashboard{
+    font-size: 2rem;
+    color: blueviolet;
+    padding: 7px;
+}
+.etd-list-container{
+    width: 100%;
+    height: 75%;
+}
+.etd-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.etd-list li{
+    list-style: none;
+    padding: 10px;
+    font-size: 19px;
+    margin-top: 29px;
+    display: flex;
+}

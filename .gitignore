@@ -1,0 +1,16 @@
+# Java (Spring Boot)
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.class
+backend/logs/
+backend/.idea/
+backend/*.iml
+
+# Node.js (React)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Système
+.DS_Store

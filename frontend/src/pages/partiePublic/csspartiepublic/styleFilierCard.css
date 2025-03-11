@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ListCardsFilier{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 630px;
+    padding-bottom: 100px;
+    margin: 4px auto;
+}
+
+.containerFC{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 16px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.containerFC:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+   
+}
+
+.imgFC{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    display: inline;
+    margin-bottom: 0;
+}
+
+.contentFC{
+    padding: 5px;
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.titreFilierInfo{
+    position: relative;
+    bottom: -620px;
+}
+
+.titreFC{
+  color: black;
+  margin-top: 14px;
+}
+
+.desFC{
+    color: #540b66;
+    font-size: 20px;
+}
+
+.div-filiers-detaile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    /* background-color: red; */
+    width: 80%;
+    margin: 10px auto;
+}
+.image-filier{
+    width: 40%;
+    height: auto;
+}
+.des-filiere-data{
+    width: 50%;
+    height: 100%;
+}

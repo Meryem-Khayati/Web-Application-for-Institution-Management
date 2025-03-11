@@ -1,0 +1,102 @@
+.div-etudiant{
+  width: 50vw;
+  height: 90vh;
+  position: relative;
+  left: 400px;
+  top: -590px;
+  margin: 10px;
+  background-color: #FFF;
+  border: solid 2px #EEE;
+ /* overflow: hidden; */
+  
+
+}
+.sous-div-profil{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 13px;
+  background-color: #FFF;
+
+}
+.section-etudiant-profil{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    align-items: center;
+   
+}
+.section-etudiant-profil .image-etudiant{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 80px;
+    height: 80PX;
+    margin-right: 7px;
+}
+.section-etudiant-profil .name-etudiant{
+    color: black;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    
+}
+.info-etd{
+    width: 40vw;
+    height: 70vh;
+}
+.info-etd .table-info-etd{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.table-info-etd td{
+   border-bottom: solid 1px #eee;
+   color: black;
+   font-size: large;
+
+   
+}
+.table-info-etd .td-info-etd{
+  color: rgb(100, 16, 100);
+  font-size: larger;
+  padding-left: 10px;
+}
+.table-info-etd .th-info-etd{
+  font-size: larger;
+  padding-left: 70PX;
+  color: rgb(138, 12, 12);
+}
+.table-info-etd .th1-info-etd{
+  font-size: larger;
+  padding-top: 50px;
+ padding-left: 70PX;
+ color: rgb(138, 12, 12);
+}
+
+@media screen and (max-width:1030px) {
+  .div-etudiant{
+    width: 75vw;
+    height: 90vh;
+    position: relative;
+    left: 70px;
+   
+  
+  }
+  .info-etd{
+    width: 70vw;
+    height: 70vh;
+}
+}
+@media screen and (max-width:600px) {
+  .div-etudiant{
+    width: 95vw;
+    height: 90vh;
+    position: relative;
+    left: 60px;
+  
+  }
+  .info-etd{
+    width: 70vw;
+    height: 70vh;
+}
+}
