@@ -42,10 +42,9 @@ Le projet a été développé avec une architecture moderne basée sur **Spring 
 ### Frontend
 - React.js  
 - Axios  
-- Tailwind CSS (si utilisé)
 
 ### Base de données
-- MySQL / PostgreSQL
+- MySQL 
 
 ---
 
